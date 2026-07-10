@@ -11,11 +11,24 @@
 
 
             display: flex;
+            
         }
-        nav{
-            border: 2px solid rosybrown;
-            height: 300px;
+        nav ul li a{
+            text-decoration: none;
+        }
+        
 
+        nav ul li{
+            cursor: pointer;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav ul li:hover{
+            background-color: blanchedalmond;
         }
 
         .logo {
@@ -24,14 +37,16 @@
             justify-content: left;
         }
 
-        .nav_bar {
+        .nav {
             display: flex;
             justify-content: space-around;
 
             justify-content: center;
         }
         .button{
+            margin-left: 20px;
             display: flex;
+            justify-content: space-around;
             justify-content: right;
         }
 
@@ -40,7 +55,7 @@
             height: 30px;
             width: 120px;
             color: aliceblue;
-            background-color: rgb(0, 0, 255);
+            background-color: rgb(28, 63, 239);
             justify-content: right;
             cursor: pointer;
 
@@ -54,9 +69,13 @@
             <div class="logo">
                 <img src="resources/logo.png" alt="">
             </div>
-            <div class="nav_bar">
-                Speakers Schedule Tracks Venue Blogs
-            </div>
+            <ul class="nav">
+                <li>Speakers</li>
+                <li>Schedule</li>
+                <li>Tracks</li>
+                <li>Venue</li>
+                <li>Blogs</li>
+            </ul>
             <div class="button">
                 <button>Register Now</button>
             </div>
