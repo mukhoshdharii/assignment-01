@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heade</title>
+    <link rel="stylesheet" href="styles/head.css">
+    <style>
+        .container {
+
+
+            display: flex;
+        }
+        nav{
+            border: 2px solid rosybrown;
+            height: 300px;
+
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-around;
+            justify-content: left;
+        }
+
+        .nav_bar {
+            display: flex;
+            justify-content: space-around;
+
+            justify-content: center;
+        }
+        .button{
+            display: flex;
+            justify-content: right;
+        }
+
+        button {
+            justify-content: right;
+            height: 30px;
+            width: 120px;
+            color: aliceblue;
+            background-color: rgb(0, 0, 255);
+            justify-content: right;
+            cursor: pointer;
+
+        }
+    </style>
 </head>
+
 <body>
     <main>
-        <img src="resources/logo.png" alt="">
-        
+        <nav class="container">
+            <div class="logo">
+                <img src="resources/logo.png" alt="">
+            </div>
+            <div class="nav_bar">
+                Speakers Schedule Tracks Venue Blogs
+            </div>
+            <div class="button">
+                <button>Register Now</button>
+            </div>
+        </nav>
+
+
+
     </main>
 </body>
+
 </html>
