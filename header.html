@@ -7,33 +7,27 @@
     <title>Heade</title>
     <link rel="stylesheet" href="styles/button.css">
     <link rel="stylesheet" href="styles/head.css">
+    <link rel="stylesheet" href="styles/nav_bar.css">
+    <link rel="stylesheet" href="styles/banner.css">
     <style>
         .container {
-
-
             display: flex;
-            
         }
-        nav ul li a{
-            text-decoration: none;
+        h1{
+            color: azure;
+            text-align: center;
+            padding-top: 30px;
+        }
+        p{
+            color: azure;
+            text-align: center;
+            padding-left: 60px;
+            width: 80%;
         }
         
 
-        nav ul li{
-            cursor: pointer;
-            margin-right: 5px;
-            margin-left: 5px;
-        }
-        nav ul{
-            display: flex;
-            list-style: none;
-        }
-        nav ul li:hover{
-            color: rgb(220, 139, 18);
-        }
-        button:hover{
-            background-color: rgb(65, 213, 60);
-        }
+            
+        
 
         .logo {
             display: flex;
@@ -47,12 +41,17 @@
 
             justify-content: center;
         }
-        .button{
+        .button1{
             margin-left: 20px;
             display: flex;
-            justify-content: space-around;
-            justify-content: right;
+            
+            justify-content: end;
         }
+        .button2{
+            display: flex;
+            justify-content: end;
+        }
+        
 
         
     </style>
@@ -72,7 +71,7 @@
                 <li>Venue</li>
                 <li>Blogs</li>
             </ul>
-            <div class="button">
+            <div class="button1">
                 <button>Register Now</button>
             </div>
         </nav>
@@ -90,7 +89,10 @@
                 conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.
                 
             </p>
-            <button>Register Now</button>
+            <div class="button2">
+                <button>Register Now</button>
+            </div>
+
         </section>
     </main>
 </body>

@@ -1,0 +1,18 @@
+nav ul li a{
+            text-decoration: none;
+        }
+        
+
+        nav ul li{
+            cursor: pointer;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav ul li:hover{
+            color: rgb(220, 139, 18);
+        }
+        
