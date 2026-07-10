@@ -1,0 +1,10 @@
+button {
+            justify-content: right;
+            height: 30px;
+            width: 120px;
+            color: aliceblue;
+            background-color: rgb(28, 63, 239);
+            justify-content: right;
+            cursor: pointer;
+
+        }
