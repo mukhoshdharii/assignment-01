@@ -6,6 +6,7 @@ button {
             background-color: rgb(28, 63, 239);
             justify-content: right;
             cursor: pointer;
+            border-radius: 6px;
 
         }
 

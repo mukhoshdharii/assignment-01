@@ -1,0 +1,20 @@
+.speakers{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+
+}
+.sp{
+    height: 150px;
+    width: 270px;
+}
+.space{
+    
+    border-radius: 3px;
+    border: 2px solid rgb(245, 242, 242);
+    margin: 6px;
+    height: 220px;
+    background-color: rgb(242, 240, 238);
+    
+   
+}
