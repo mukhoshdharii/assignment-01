@@ -1,0 +1,3 @@
+this is a website that i have made, look at the bottom, there is a section named "generate with ai". what you have to do is, analyze the whole website and give me ideas about something relevant that i have missed.  keep it simple, dont use jaba script or css framework/library
+
+add a faq section, a Testimonials from past years. keep it simple, dont use jaba script or css framework/library, only html and css
