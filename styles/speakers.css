@@ -1,20 +1,29 @@
 .speakers{
+    margin: 0px;
+    padding: 0px;
+    
     display: grid;
     grid-template-columns: 50% 50%;
-    
-
 }
+    
+    
 .sp{
     height: 150px;
-    width: 270px;
+    width: 290px;
 }
 .space{
     
-    border-radius: 3px;
+    border-radius: 5px;
     border: 2px solid rgb(245, 242, 242);
     margin: 6px;
-    height: 220px;
-    background-color: rgb(242, 240, 238);
+    width: fit-content;
+    height: 260px;
+    
+    
+    background-color: rgb(248, 247, 247);
+}
+.intro{
+    font-size: .7rem;
+}
     
    
-}

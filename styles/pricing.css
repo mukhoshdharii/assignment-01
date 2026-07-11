@@ -1,0 +1,15 @@
+.pricing{
+    display: flex;
+    gap: 5px;
+    
+
+}
+.first{
+    list-style: none;
+    
+}
+.content{
+    border: 2px solid rgb(249, 247, 247);
+    border-radius: 9px;
+    background-color: rgb(248, 247, 245);
+}
