@@ -13,6 +13,146 @@
     <link rel="stylesheet" href="styles/pricing.css">
     <link rel="stylesheet" href="styles/footer.css">
     <style>
+
+        .section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 0 12px;
+  }
+
+  .section-sub {
+    text-align: center;
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 56px;
+  }
+
+  /* ---------- Testimonials ---------- */
+
+  .testimonials-section {
+    background: #f9fafb;
+  }
+
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .testimonial-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote-mark {
+    font-size: 36px;
+    line-height: 1;
+    color: #2952e3;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #374151;
+    margin: 0 0 24px;
+    flex-grow: 1;
+  }
+
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid #f0f0f2;
+    padding-top: 16px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #dbe2fb;
+    color: #2952e3;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .author-name {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .author-role {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 2px 0 0;
+  }
+
+  .year-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #2952e3;
+    background: #eef1fd;
+    padding: 3px 9px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+  }
+
+  /* ---------- FAQ ---------- */
+
+  .faq-list {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 22px 0;
+  }
+
+  .faq-question {
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .faq-answer {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #6b7280;
+  }
+
+  @media (max-width: 800px) {
+    .testimonial-grid {
+      grid-template-columns: 1fr;
+    }
+    .section-title {
+      font-size: 30px;
+    }
+  }
+
+
+
+
+
+
+
+        
         .container {
             display: flex;
         }
@@ -223,7 +363,131 @@
                 </ul>
                 <button class="order3">Contact Us</button>
             </div>
-        </section>
+        </section><br><br><br><br>
+
+
+
+
+        <!-- ================= TESTIMONIALS ================= -->
+  <section class="testimonials-section">
+    <h2 class="section-title">What Past Attendees Say</h2>
+    <p class="section-sub">Hear from engineers and founders who joined us in previous years.</p>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <span class="year-tag">DEVCONF 2025</span>
+        <div class="quote-mark">&ldquo;</div>
+        <p class="testimonial-text">
+          The workshop track alone was worth the ticket price. I walked away with three
+          ideas I shipped to production within the month.
+        </p>
+        <div class="testimonial-author">
+          <div class="avatar">SP</div>
+          <div>
+            <p class="author-name">Sarah Patel</p>
+            <p class="author-role">Backend Engineer, Stripe</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <span class="year-tag">DEVCONF 2025</span>
+        <div class="quote-mark">&ldquo;</div>
+        <p class="testimonial-text">
+          Best-organized dev conference I've attended. Talks started on time, the
+          networking dinner was genuinely useful, and I met my current co-founder there.
+        </p>
+        <div class="testimonial-author">
+          <div class="avatar">RK</div>
+          <div>
+            <p class="author-name">Ravi Kumar</p>
+            <p class="author-role">Founder, Loopbase</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <span class="year-tag">DEVCONF 2024</span>
+        <div class="quote-mark">&ldquo;</div>
+        <p class="testimonial-text">
+          As a first-time attendee I expected another generic tech conference. Instead I
+          got hands-on time with people whose work I'd only read about before.
+        </p>
+        <div class="testimonial-author">
+          <div class="avatar">EM</div>
+          <div>
+            <p class="author-name">Elena Morales</p>
+            <p class="author-role">Staff Engineer, Datadog</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="faq-section">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-sub">Everything you need to know before you register.</p>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <p class="faq-question">What's included in my ticket?</p>
+        <p class="faq-answer">
+          Every ticket tier includes access to all keynote and track talks. Pro and Team
+          tiers add workshop access, recordings, and networking events — see the pricing
+          section above for the full breakdown by tier.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Is there a virtual attendance option?</p>
+        <p class="faq-answer">
+          DevConf 2026 is an in-person event only. Standard and Pro ticket holders get
+          digital recordings of all sessions after the conference so you won't miss a talk
+          even if you can't make every session live.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">What's your refund policy?</p>
+        <p class="faq-answer">
+          Full refunds are available up to 30 days before the event. Within 30 days, tickets
+          can be transferred to a colleague at no charge, but are non-refundable.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Can I upgrade my ticket after registering?</p>
+        <p class="faq-answer">
+          Yes. You can upgrade from Standard to Pro at any time before the event by paying
+          the price difference. Reach out to our team to upgrade to a Team ticket.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Is there a code of conduct?</p>
+        <p class="faq-answer">
+          Yes, all attendees, speakers, and sponsors are expected to follow our code of
+          conduct, which covers respectful behavior, harassment policy, and how to report
+          concerns on-site.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Do you offer student or group discounts?</p>
+        <p class="faq-answer">
+          Students get 50% off Standard tickets with a valid .edu email. Groups of 5 or
+          more from the same company should use the Team tier or contact us for custom
+          pricing.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
 
 
 

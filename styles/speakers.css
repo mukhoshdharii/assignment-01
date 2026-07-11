@@ -1,6 +1,7 @@
 .speakers{
     margin: 0px;
     padding: 0px;
+    margin-left: 240px;
     
     display: grid;
     grid-template-columns: 50% 50%;
