@@ -1,15 +1,79 @@
 .pricing{
-    display: flex;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     gap: 5px;
+    justify-content: center;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.pro{
+    color: #888888;
+    background-color: #0d1b2a;
+     border: 2px solid rgb(249, 247, 247);
+    border-radius: 9px;
+}
     
 
-}
 .first{
     list-style: none;
     
+    
+    border-bottom: 1px solid #e0e0e0;
+    
+    
 }
 .content{
+    
     border: 2px solid rgb(249, 247, 247);
     border-radius: 9px;
-    background-color: rgb(248, 247, 245);
+    
+    
+    background-color: #e5e7eb;
+}
+
+.order1{
+    margin-left: 9%;
+    margin-top: 43px;
+    color: rgb(0, 0, 255);
+    border-color: rgb(0, 0, 255);
+    height: 30px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.order2{
+    margin-left: 9%;
+    margin-top: 55px;
+    color: #e5e7eb;
+    background-color: rgb(34, 144, 240);
+    height: 30px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.order3{
+    margin-left: 9%;
+    margin-top: 45px;
+    height: 30px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.second li::marker{
+    color: #2563eb;
 }

@@ -1,4 +1,4 @@
-button {
+.register_btn {
             justify-content: right;
             height: 30px;
             width: 120px;
@@ -10,6 +10,16 @@ button {
 
         }
 
-button:hover{
-            background-color: rgb(65, 213, 60);
+        .button2{
+            margin-top: 130px;
         }
+
+button:hover{
+            background-color: rgb(21, 48, 127);
+        }
+
+.order_btn {
+    justify-content: center;
+    width: 280px;
+    color: blue;
+}
